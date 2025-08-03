@@ -16,11 +16,7 @@ function RootStack() {
         component={Employee}
         options={{ headerShown: false }}
       />
-      <Stack.Screen
-        name="EmployeeForm"
-        component={EmployeeDetails}
-        options={{ headerShown: false }}
-      />
+      <Stack.Screen name="EmployeeForm" component={EmployeeDetails} />
     </Stack.Navigator>
   );
 }
